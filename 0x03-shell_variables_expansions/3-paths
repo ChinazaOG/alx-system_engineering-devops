@@ -1,2 +1,2 @@
-#!/bin/bash
-find . -PATH d | wc -l
+#!/bin/bashi
+echo $PATH | tr ":" "\n" | wc -l
